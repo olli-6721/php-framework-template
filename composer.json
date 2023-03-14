@@ -8,6 +8,6 @@
         }
     },
     "require": {
-      "olli-6721/php-framework-package": "*"
+      "olli-6721/php-framework-package": "0.0.*"
     }
 }
