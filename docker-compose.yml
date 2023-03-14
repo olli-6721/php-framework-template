@@ -28,7 +28,6 @@ services:
       PHP_EXTENSION_INTL: "1" # aktivierung einer erweiterung, die grafiken dynamisch erstellen und bearbeiten kann - gd
       PHP_EXTENSIONS: intl curl pdo_mysql yaml
       PHP_INI_APC__ENABLE_CLI: "1"
-      # Symfony
       APP_ENV: "dev"
       APP_SECRET: "8d2a5c935d8ef1c0e2b751147382bc75"
       DATABASE_URL: "mysql://mysql:mysql@mysql:3306/mysql"
