@@ -1,6 +1,7 @@
 {
     "name": "olli-6721/php-framework-template",
     "type": "project",
+    "version": "0.0.1",
     "license": "MIT",
     "minimum-stability": "dev",
     "autoload": {
