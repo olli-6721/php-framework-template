@@ -1,6 +1,7 @@
 {
     "name": "olli-6721/php-framework-template",
-    "type": "library",
+    "type": "project",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "App\\": "src/"
