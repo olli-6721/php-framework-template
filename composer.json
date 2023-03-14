@@ -8,6 +8,6 @@
         }
     },
     "require": {
-      "olli-6721/php-framework-package": "dev-master"
+      "olli-6721/php-framework-package": "*"
     }
 }
