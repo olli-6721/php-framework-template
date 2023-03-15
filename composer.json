@@ -5,12 +5,20 @@
     "license": "MIT",
     "minimum-stability": "stable",
     "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Oliver Schwietering",
+            "email": "oliver.schwietering@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "App\\": "src/"
         }
     },
     "require": {
-      "olli-6721/php-framework-package": ">=0.0.1"
+        "php": ">=8.1.0",
+        "olli-6721/php-framework-package": ">=0.0.1"
     }
 }
