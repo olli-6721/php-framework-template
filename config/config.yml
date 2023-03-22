@@ -4,7 +4,7 @@ framework:
     environment: %APP_ENV%
   http:
     paths:
-      controller: ['test/Controller', 'Test\Controller']
+      controller: ['src/Controller', 'App\Controller']
   dal:
     driver: Os\Framework\DataAbstractionLayer\Driver\PdoDriver
     access:
@@ -14,9 +14,9 @@ framework:
       username: %DATABASE_USER%
       password: %DATABASE_PASS%
     paths:
-      migration: ['test/Migration', 'Test\Migration']
-      entity: ['test/Entity', 'Test\Entity']
-      repository: ['test/Repository', 'Test\Repository']
+      migration: ['src/Migration', 'App\Migration']
+      entity: ['src/Entity', 'App\Entity']
+      repository: ['src/Repository', 'App\Repository']
   logger:
     directory: 'var/log'
     filenames:
@@ -27,7 +27,7 @@ framework:
         filename: 'prod'
         add_date: true
   di:
-    autoload: ['test']
+    autoload: ['src']
     services:
       Os\Framework\DataAbstractionLayer\Driver\DriverInterface:
         class: Os\Framework\DataAbstractionLayer\Driver\PdoDriver
