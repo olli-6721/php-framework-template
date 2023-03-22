@@ -23,10 +23,10 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "php -r \"mkdir('src/Controller', 0777, true)\"",
-            "php -r \"mkdir('src/Migration', 0777, true)\"",
-            "php -r \"mkdir('src/Entity', 0777, true)\"",
-            "php -r \"mkdir('src/Repository', 0777, true)\""
+            "php -r \"mkdir('src/Controller', 0777, true);\"",
+            "php -r \"mkdir('src/Migration', 0777, true);\"",
+            "php -r \"mkdir('src/Entity', 0777, true);\"",
+            "php -r \"mkdir('src/Repository', 0777, true);\""
         ]
     }
 }
